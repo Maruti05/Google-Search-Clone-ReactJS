@@ -1,11 +1,16 @@
 import React from "react";
 import "./styles.css";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Home from './componets/Home';
+import Search from './componets/Search'
 
 export default function App() {
   return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
-    </div>
+     <Router>
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/search" exact component={Search} />
+      </Switch>
+    </Router>
   );
 }
