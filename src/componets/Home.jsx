@@ -11,7 +11,11 @@ const Home = (props) => {
     <div className="home">
       <div className="home__container">
         <div className="home__logo">
-          <img src={googlelogo} alt="Logo" />
+          <img
+            src="https://lh3.googleusercontent.com/proxy/8UvL_BAQtb6pYRDta9XEtTT6ZzGFc4YQCD1MVWJy12_mew0HLYj9VPIyvUwjZyd0MWcHbCBlg4ZBehB8JJBIGZanstydeja_AHPkWBZ6j6hpOJe06NU"
+            alt="Logo"
+            className="logo"
+          />
         </div>
         <form className="home__form" onSubmit={searchGoogle}>
           <input

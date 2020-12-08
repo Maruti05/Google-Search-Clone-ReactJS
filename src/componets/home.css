@@ -23,6 +23,9 @@ body {
   margin-bottom: 20px;
   text-align: center;
 }
+.logo {
+  height: 110px;
+}
 .home__form {
   position: relative;
 }
